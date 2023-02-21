@@ -40,6 +40,7 @@ arquivos da nossa aplicação;
 
 ---
 # Escolher fontes
+https://www.npmjs.com/package/@expo-google-fonts/overpass
 
 ```
 npm i @expo-google-fonts/overpass
@@ -52,3 +53,31 @@ npm i @expo-google-fonts/overpass
 - Weather API key: b3b5978bcf5f434ba6502017231702
 
 ---
+
+# Instalar o styled-components
+
+```
+npm i styled-components
+```
+# Adicionar os estilos gerais
+
+No diretório "theme":
+- colors.ts
+- fontFamily.ts
+- fontSize.ts
+- index.ts
+# Criar os primeiros componentes do app (não é para criartodos os componentes, mas somente os que são utilizadosna tela de boas vindas)
+
+No diretório "components":
+- Button
+- CardHourTemperature
+- Divider
+- Temperature
+- Text
+- WeatherDescription
+
+# Criar a tela de boas vindas
+
+No diretório "screens":
+- Home
+- Welcome
